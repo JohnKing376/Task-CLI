@@ -1,5 +1,5 @@
 # Task-CLI
-_______________________________________________________________
+
 #### This is a lightweight application that enables the user to perform CRUD Operations using the terminal.
 
 ## Installation
