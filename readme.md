@@ -42,4 +42,8 @@
      ```
       todo-cli filterTasks {status}
     ```
+8. Initialize the Todo by:
+     ```
+      todo-cli
+    ```
     
