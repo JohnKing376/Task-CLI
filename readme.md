@@ -1,6 +1,6 @@
 # Task-CLI
 _______________________________________________________________
-### This is a lightweight application that enables the user to perform CRUD Operations using the terminal.
+#### This is a lightweight application that enables the user to perform CRUD Operations using the terminal.
 
 ## Installation
 
@@ -9,36 +9,36 @@ _______________________________________________________________
 
 ## Usage
 
-1. ### Add a task by using: 
+1. Add a task by using: 
    ```
      todo-cli add "Bread"
    ```
-2. ### Delete a task by using: 
+2. Delete a task by using: 
     ```
       todo-cli delete {id}
     ```
-3. ### Delete all tasks:
+3. Delete all tasks:
      ```
       todo-cli deleteAll
     ```
    - But after you do this, always initialize `todo-cli` before adding a new task.
 
 
-4. ### Update a task:
+4. Update a task:
      ```
       todo-cli update {id}
     ```
 
-5. ### Mark a task as `done` or `in-progress`:
+5. Mark a task as `done` or `in-progress`:
      ```
       todo-cli {done/in-progress} {id}
     ```
-6. ### List all tasks:
+6. List all tasks:
      ```
       todo-cli delete {id}
     ```
    
-7.  ### Filter tasks by statuses `done`, `todo` and `in-progress`
+7.  Filter tasks by statuses `done`, `todo` and `in-progress`
      ```
       todo-cli filterTasks {status}
     ```
