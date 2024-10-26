@@ -112,13 +112,12 @@ switch(command) {
     }
 
     case 'listAll': {
-       console.log(Colors.SUCCESS(`Todo-CLI: All Tasks: ⬇️`))
+       console.log(Colors.SUCCESS(`>> Todo-CLI: All Tasks: `))
        console.log(todos)
        break;
     }
 
     case 'filterTasks': {
-
         const filteredTask = {}
 
         for(const key in todos) {
@@ -128,7 +127,7 @@ switch(command) {
             }
         }
 
-        console.log(filteredTask)
+        console.log(Colors.SUCCESS(`>> Todo-CLI: Successfully fetched tasks with status of ${process.argv[3]}`, filteredTask))
         break;
     }
 
