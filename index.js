@@ -21,7 +21,7 @@ const Colors = Object.freeze({
 
 let todos;
 
-const filePath = decodeURIComponent(new URL('Docs/tasks.json', import.meta.url).pathname.slice(1))
+const filePath = decodeURIComponent(new URL('tasks.json', import.meta.url).pathname.slice(1))
 
 try {
     todos = JSON.parse(await fs.readFile(filePath, 'utf-8'));
